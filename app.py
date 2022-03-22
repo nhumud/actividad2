@@ -9,7 +9,8 @@ def status():
 
 @app.route("/info", methods=['GET'])
 def info():
-    return ('', 200)
+    server = {"url": "https://actividad2-nicolas-humud.herokuapp.com/"}
+    return (server, 200)
 
 
 @app.route("/security", methods=['DELETE'])
