@@ -11,6 +11,7 @@ def status():
 def info():
     return "", 200
 
+
 @app.route("/security", methods=['DELETE'])
 def security():
     return "", 401
